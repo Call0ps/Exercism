@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/call0ps/exercism/cpp/space-age/build",
+  "command": "/usr/bin/clang++   -g -Wall -Wextra -Wpedantic -Werror -std=c++17 -o CMakeFiles/space-age.dir/space_age_test.cpp.o -c /home/call0ps/exercism/cpp/space-age/space_age_test.cpp",
+  "file": "/home/call0ps/exercism/cpp/space-age/space_age_test.cpp"
+},
+{
+  "directory": "/home/call0ps/exercism/cpp/space-age/build",
+  "command": "/usr/bin/clang++   -g -Wall -Wextra -Wpedantic -Werror -std=c++17 -o CMakeFiles/space-age.dir/space_age.cpp.o -c /home/call0ps/exercism/cpp/space-age/space_age.cpp",
+  "file": "/home/call0ps/exercism/cpp/space-age/space_age.cpp"
+},
+{
+  "directory": "/home/call0ps/exercism/cpp/space-age/build",
+  "command": "/usr/bin/clang++   -g -Wall -Wextra -Wpedantic -Werror -std=c++17 -o CMakeFiles/space-age.dir/test/tests-main.cpp.o -c /home/call0ps/exercism/cpp/space-age/test/tests-main.cpp",
+  "file": "/home/call0ps/exercism/cpp/space-age/test/tests-main.cpp"
+}
+]
