@@ -199,13 +199,16 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+/build/*
+*/build/*
 
 ### CMake Patch ###
 # External projects
 *-prefix/
 
 ### VisualStudioCode ###
-.vscode/*
+**/.vscode/**
+.vscode/**:
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
