@@ -227,3 +227,7 @@ _deps
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/c,c++,visualstudiocode,clion,cmake
+*.xml
+*.iml
+triangle/.idea/.gitignore
+*.idx
