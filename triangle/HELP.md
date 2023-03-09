@@ -1,9 +1,9 @@
-# Help
+cmake# Help
 
 ## Running the tests
 
 Running the tests involves running `cmake -G` and then using the build command appropriate for your platform.
-Detailed instructions on how to do this can be found on the [Running the Tests](https://exercism.io/tracks/cpp/tests) page for C++ on exercism.io.
+Detailed instructions on how to do this can be found on the [Running the Tests](https://execmarcism.io/tracks/cpp/tests) page for C++ on exercism.io.
 
 ## Passing the Tests
 
