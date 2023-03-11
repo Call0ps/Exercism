@@ -229,6 +229,8 @@ _deps
 # End of https://www.toptal.com/developers/gitignore/api/c,c++,visualstudiocode,clion,cmake
 *.xml
 *.iml
-triangle/.idea/.gitignore
+.idea/.gitignore
+.idea/
 *.idx
 .cache/*
+.exercism/*
