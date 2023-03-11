@@ -231,3 +231,4 @@ _deps
 *.iml
 triangle/.idea/.gitignore
 *.idx
+.cache/*
