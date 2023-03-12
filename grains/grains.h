@@ -5,8 +5,9 @@
 
 namespace grains {
 
-std::uint64_t square(int square);
-std::uint64_t all();
+uint64_t square(uint64_t);
+uint64_t total();
+
 }  // namespace grains
 
 #endif // GRAINS_H

@@ -1,16 +1,17 @@
 #include "grains.h"
+#include <cmath>
 #include <cstdint>
+#include "math.h"
 
 namespace grains {
-const int MAX = 64;
-std::uint64_t square(int square){
-    if(square <= MAX){
-        int count = 0;
-        for (int c = 1; c <= square; ++c) {
-            count += c;
-        }
-        return count;
-    }
-    return 0;
+uint64_t square(uint64_t square) {
+  return 1ULL << (square - 1);
 }
-}  // namespace grains
+uint64_t total(){
+    uint64_t total = 0;
+    for(uint64_t i = 1; i <= 64ULL; i++){
+        total += square(i);
+    }
+    return total;
+}
+} // namespace grains
