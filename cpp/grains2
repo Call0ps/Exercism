@@ -1,0 +1,12 @@
+#include <cstdint>
+#include <sys/types.h>
+#if !defined(GRAINS_H)
+#define GRAINS_H
+
+namespace grains {
+
+unsigned long long square(unsigned long long square);
+unsigned long long all();
+}  // namespace grains
+
+#endif // GRAINS_H
